@@ -4,7 +4,7 @@ def Vvod():
     Stolb = int(input('Введите число столбцов: '))
     Chisla = (input('Введите числа для массива: '))
     return Stroka, Stolb, Chisla
-
+https://github.com/KxxssK/Module_2/blob/master/module_2_5.py
 
 def get_matrix(n, m, value):
     matrix = []
@@ -28,19 +28,3 @@ while True:
     matrix = get_matrix(Stroka, Stolb, Chisla)
     print('Ваша матрица:', matrix)
     continue
-
-
-def get_matrix(n, m, value):
-    matrix = []
-    for i in range(n):
-        matrix.append([])
-        for j in range(m):
-            matrix[i].append(value)
-    return matrix
-
-result1 = get_matrix(2, 2, 10)
-result2 = get_matrix(3, 5, 42)
-result3 = get_matrix(4, 2, 13)
-print(result1)
-print(result2)
-print(result3)
